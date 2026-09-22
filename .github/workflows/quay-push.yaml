@@ -45,7 +45,7 @@ jobs:
 
           artifact: docker:tmas-cicd-lab:${{ github.sha }}
 
-          additionalArgs: --region=ap-southeast-1
+          additionalArgs: --region=ap-southeast-1 --evaluatePolicy
 
           tmasApiKey: ${{ secrets.TMAS_API_KEY }}
 
