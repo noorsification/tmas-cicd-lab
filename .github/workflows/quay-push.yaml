@@ -36,9 +36,9 @@ jobs:
       # ====================================
 
       - name: TMAS Container Scan
-        uses: trendmicro/tmas-scan-action@vX
+        uses: trendmicro/tmas-scan-action@v2
         with:
-          version: X.X.X
+          version: '2'
           vulnerabilitiesScan: true
           malwareScan: true
           secretsScan: true
